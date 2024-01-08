@@ -1,9 +1,16 @@
+body , ul,li,h1,h2,a{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
 header{
     position: relative;
     text-align: center;
     color:white ;
     background-color: red;
     padding: 2%;
+    z-index: auto;
+    
     
 }
 .banner img{
@@ -11,13 +18,95 @@ header{
 }
 .banner .Welcome{
     position: absolute;
-    left: 8px;
+    left: 10px;
     top: 50%;
     color:white;
     background-color: #FEB614;
     max-width: 100%;
-
+    border-radius: 5px;
+    
 }
 .banner h2{
     font-size: 74px;
+}
+.MarioClub h1{
+    border: white solid 8px;
+    border-radius: 3px;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 30px;
+}
+.banner h2 span{
+    font-size: 1.2em;
+}
+nav{
+    background-color: rgb(236, 223, 223);
+    padding: 15px;
+    position: sticky;
+    top: -4px;
+
+}
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav li{
+width: 25%;
+display: inline-block;
+font-size: 15px;
+
+}
+li a{
+    max-width: 100%;
+    position: relative;
+    left: 75px;
+    color: #4B4B4B;
+    text-decoration: none;
+    
+  
+}
+.join{
+    color: red;
+}
+main{
+    max-width: 100%;
+    width: 1200px;
+    margin: 2% auto;
+    padding: 0 40px;
+}   
+article h2{
+    color: #F63232;
+    font-size: 48px;
+}
+article p{
+    line-height: 2em;
+    color: #4B4B4B;
+}
+.thumb12{
+    text-align: center;
+    margin: 80px 0;
+
+}
+.thumb12 li{
+    display: inline-block;
+    width: 40%;
+
+}
+.thumb12 li img{
+    max-width: 100%;
+
+}
+.join2{
+    text-align: center;
+    color: #4B4B4B;
+    background-color: #F4F4F4;
+    max-width: 100%;
+    padding :60px 20px;
+
+}
+.join2 h2{
+    color: red;
+    font-size: 40px;
+
 }
