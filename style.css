@@ -95,6 +95,7 @@ article p{
 }
 .thumb12 li img{
     max-width: 100%;
+    right: auto;
 
 }
 .join2{
@@ -103,10 +104,35 @@ article p{
     background-color: #F4F4F4;
     max-width: 100%;
     padding :60px 20px;
+    margin: 20px 0;
+    
 
 }
 .join2 h2{
     color: red;
     font-size: 40px;
 
+
+}
+form input{
+    border-radius: 50px;
+    size: 100px;
+}
+/*pseudo classes*/
+nav li a:hover{
+    text-decoration: underline;
+    background-color: #f3c8c8;
+    padding: 8px;
+} 
+.thumb12 li:hover{
+    position: relative;
+    top: -4px;
+}
+form input:focus{
+    border: #4B4B4B dashed 4px ;
+    outline: none;
+    border-radius: 40px;
+}
+form input:valid{
+    border: #71d300 solid ;
 }
